@@ -91,7 +91,14 @@ function getEvens(numbers) {
  * @returns {number[]} the odd numbers in the array
  */
 function getOdds(numbers) {
-  // TODO
+  let oddNums = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 !== 0) {
+      oddNums.push(numbers[i]);
+    }
+  }
+  return oddNums;
 }
 
 // === READ BUT DO NOT EDIT THE CODE BELOW ===
