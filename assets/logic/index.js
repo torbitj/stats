@@ -92,6 +92,10 @@ function getEvens(numbers) {
  */
 function getOdds(numbers) {
   let oddNums = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    
+  }
 }
 
 // === READ BUT DO NOT EDIT THE CODE BELOW ===
