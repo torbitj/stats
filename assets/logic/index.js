@@ -91,7 +91,7 @@ function getEvens(numbers) {
  * @returns {number[]} the odd numbers in the array
  */
 function getOdds(numbers) {
-  // TODO
+  let oddNums = [];
 }
 
 // === READ BUT DO NOT EDIT THE CODE BELOW ===
