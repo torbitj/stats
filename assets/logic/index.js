@@ -38,7 +38,9 @@ function getMean(numbers) {
 function getMin(numbers) {
   let min = numbers[0];
 
-  
+  for (let i = 0; i < numbers.length; i++) {
+    
+  }
 }
 
 /**
