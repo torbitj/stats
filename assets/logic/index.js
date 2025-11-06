@@ -77,6 +77,10 @@ function getRange(numbers) {
  */
 function getEvens(numbers) {
   let evenNums = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    
+  }
 }
 
 /**
