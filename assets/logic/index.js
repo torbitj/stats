@@ -36,7 +36,9 @@ function getMean(numbers) {
  * @returns {number} the smallest of the numbers
  */
 function getMin(numbers) {
-  // TODO
+  let min = numbers[0];
+
+  
 }
 
 /**
