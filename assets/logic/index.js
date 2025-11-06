@@ -76,7 +76,7 @@ function getRange(numbers) {
  * @returns {number[]} the even numbers in the array
  */
 function getEvens(numbers) {
-  // TODO
+  let evenNums = [];
 }
 
 /**
