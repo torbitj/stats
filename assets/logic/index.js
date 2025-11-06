@@ -13,7 +13,7 @@ function getLength(numbers) {
 function getSum(numbers) {
   let sum = 0;
 
-  for (i = 0; i < numbers.length; i++) {
+  for (let i = 0; i < numbers.length; i++) {
     sum += numbers[i];
   }
 
@@ -25,10 +25,10 @@ function getSum(numbers) {
  * @returns {number} the mean of the numbers
  */
 function getMean(numbers) {
-  let sum = 0;
-  let mean = 0;
+  const sum = getSum(numbers);
+  const mean = sum / numbers.length;
 
-  
+  return mean;
 }
 
 /**
