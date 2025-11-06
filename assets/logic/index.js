@@ -25,7 +25,10 @@ function getSum(numbers) {
  * @returns {number} the mean of the numbers
  */
 function getMean(numbers) {
-  // TODO
+  let sum = 0;
+  let mean = 0;
+
+  
 }
 
 /**
